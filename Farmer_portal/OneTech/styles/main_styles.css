@@ -1,40 +1,4 @@
 @charset "utf-8";
-/* CSS Document */
-
-/******************************
-
-[Table of Contents]
-
-1. Fonts
-2. Body and some general stuff
-3. Header
-	3.1 Top Bar
-	3.2 Header Main
-	3.3 Main Navigation
-	3.4 Page Menu
-4. Banner
-5. Characteristics
-6. Deals of the week
-	6.1 Deals
-	6.2 Featured
-7. Popular Categories
-8. Banner 2
-9. Hot New Arrivals
-10. Hot Best Sellers
-11. Adverts
-12. Trends
-13. Latest Reviews
-14. Recently Viewed
-15. Brands
-16. Newsletter
-17. Footer
-
-
-******************************/
-
-/***********
-1. Fonts
-***********/
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900');
 
@@ -1210,6 +1174,8 @@ select option
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 .banner_content
 {
@@ -1220,7 +1186,7 @@ select option
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	line-height: 1.166;
-	color: #7599b2;
+	color:black;
 	text-transform: uppercase;
 	letter-spacing: 0.038em;
 }

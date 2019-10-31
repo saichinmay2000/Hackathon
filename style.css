@@ -26,6 +26,9 @@ body a:hover {
     background-color: white;
     color: #000;
 }
+.doc-loader :hover{
+    font-size: 5000px;
+}
 
 .doc-loader td {
     text-align: center;
@@ -264,6 +267,7 @@ h1.big-title {
     background-image: url(demo-images/proj.jpg);
     background-repeat: no-repeat;
     z-index: 9;
+    background-size: 100% 100%;
 }
 
 #services .section-title-holder {
@@ -300,7 +304,7 @@ h1.big-title {
 
 #portfolio {
     background-color: #221C5A;
-    background-image: url("demo-images/background_img_02.jpg");
+    background-image: url("demo-images/background_img_02.jpeg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: auto;
